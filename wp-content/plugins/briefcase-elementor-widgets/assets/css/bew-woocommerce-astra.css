@@ -1,0 +1,128 @@
+/**
+ * CSS for Astra Theme.
+ */
+
+ .woocommerce ul.products li.product .bew-product-image.onsale-circle span.onsale {
+    top: 20px;
+    right: 20px;
+    left: auto;
+    margin: 0;
+}
+
+ins, mark {
+    background: transparent;
+    text-decoration: none;
+}
+
+.ast-site-header-cart .widget_shopping_cart .product_list_widget, .woocommerce .ast-site-header-cart .widget_shopping_cart .product_list_widget {
+    padding: 0;
+    
+}
+
+.ast-site-header-cart .widget_shopping_cart .product_list_widget li, .woocommerce .ast-site-header-cart .widget_shopping_cart .product_list_widget li {
+    padding: 0;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #e6e6e6;
+    min-height: 100%;
+}
+
+.woocommerce ul.product_list_widget li img {
+	
+    left: unset;    
+    transform: unset;
+	
+}
+
+.ast-site-header-cart .widget_shopping_cart .product_list_widget li img, .woocommerce .ast-site-header-cart .widget_shopping_cart .product_list_widget li img {
+    max-width: 100%;
+    margin:0;
+}
+
+.widget_shopping_cart_content ul.cart_list li .owp-grid-wrap .owp-grid  a.remove {
+	right: 20px;
+}
+
+.woocommerce ul.product_list_widget li img {
+	margin:0;
+}
+
+.woocommerce #content div.product div.thumbnails a, .woocommerce div.product div.thumbnails a, .woocommerce-page #content div.product div.thumbnails a, .woocommerce-page div.product div.thumbnails a {
+width: auto;
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 0;	
+}
+
+p.stars a::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    font-family: WooCommerce;
+    content: '\e021';
+    text-indent: 0;
+}
+
+p.stars.selected a:not(.active)::before {
+    content: '\e020';
+}
+
+p.stars:hover a::before {
+    content: '\e020';
+}
+
+.bew-review #reviews #comments ol.commentlist li .comment_container {
+   
+    border-bottom: 0px solid !important;
+    padding-left: 0px !important;
+   
+}
+
+.woocommerce div.product .bew-woo-gallery-view-sticky div.images .woocommerce-product-gallery__image:nth-child(n+2){
+	width:100%;
+	display:block;
+}
+
+.woocommerce ul.products li.product a img, .woocommerce-page ul.products li.product a img {
+    margin-bottom: 0;
+}
+
+.woocommerce #reviews #comments ol.commentlist.slick-initialized li .comment-text {
+   display: block;
+}
+
+.woocommerce #reviews #comments ol.commentlist.slick-initialized li .comment-text .star-rating {
+    order: 0;
+    margin-bottom: 0;
+}
+
+.woocommerce #reviews #comments ol.commentlist.slick-initialized li .comment-text meta, .woocommerce #reviews #comments ol.commentlist.slick-initialized li .comment-text p.meta {
+    order: 0;
+	width: initial;
+}
+
+.woocommerce div.product span.onsale {
+    min-height: 0;
+    min-width: 0;
+    line-height: 1.4;
+}	
+
+.woocommerce ul.products li.product .ast-shop-product-out-of-stock, .woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce-page ul.products li.product .ast-shop-product-out-of-stock, .woocommerce-page ul.products li.product .woocommerce-loop-category__title {
+    position: relative;   
+    left: unset;
+    right: unset;    
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce-page ul.products li.product .woocommerce-loop-category__title {
+    bottom: 0;
+}
+
+.woocommerce .bew-toolbar .shop-filter .woocommerce-ordering select {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+

@@ -1,0 +1,17 @@
+
+/*------------------------------------------------------------------
+Fix Elementor details
+-------------------------------------------------------------------*/
+
+.elementor-panel .elementor-control-type-color .elementor-control-content .elementor-control-field .elementor-control-title {
+	width: 30%!important;
+}
+
+.elementor-panel .elementor-control-type-color .elementor-control-content .elementor-control-field .elementor-control-input-wrapper{
+	width: 70%!important;
+}
+
+.elementor-control-type-switcher.elementor-label-inline>.elementor-control-content .elementor-control-field .elementor-control-title {
+    width: 40%!important;
+}
+

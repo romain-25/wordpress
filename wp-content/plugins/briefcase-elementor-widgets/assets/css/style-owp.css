@@ -1,0 +1,59 @@
+
+/**
+ * Bew Woo Dinamic Fields
+ */
+ 
+ #summary .entry-title {
+	 border-bottom: none;
+ }
+ 
+ 
+ /*
+Add to cart button default
+
+
+@media only screen and (min-width: 800px) {
+.single-product .quantity .qty {
+width: 57px;
+min-height: 57px;
+font-size: 29px;
+}
+
+.single-product .quantity .minus ,.single-product .quantity .plus{
+line-height: 55px;
+font-size: 40px;
+width:57px;
+min-height:57px;    
+}
+
+.single-product .button {
+margin: 0 0 0 20px;
+font-size: 29px;}
+
+}
+
+@media only screen and (max-width: 800px) {
+.single-product .button {
+margin: 0 0 0 10px;}
+
+.single-product .amount {
+color:#111111;  
+font-size: 18px;
+display:block;
+position: relative;
+width: 60px;
+margin: 0 auto;
+ }
+
+.single-product .cart {
+display:block;
+position: relative;
+width: 260px;
+margin: 0 auto;
+ }
+ 
+.single-product .button {
+padding: 12px 20px;
+}
+}
+*/

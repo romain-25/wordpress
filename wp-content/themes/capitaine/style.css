@@ -1,0 +1,15 @@
+/*
+Theme Name: Capitaine
+Author: Romain Rouabah
+Description: Mon premier thème !
+Version: 1.0
+*/
+
+.menu {
+    position: fixed;
+    top: 0px;
+}
+
+.admin-bar .menu {
+	top: 32px; /* on prend en compte le décalage */
+}

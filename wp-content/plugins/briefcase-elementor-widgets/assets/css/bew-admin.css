@@ -1,0 +1,35 @@
+
+/**
+ * BEW Templates on Elementor
+ */
+
+
+#bew-template_form_template-type_wrapper .bew-field_label {
+    display: block;
+    margin: 25px 0 7px;
+    font-size: 14px;
+    line-height: 1;
+}
+
+#bew-template_form_template-type_wrapper .bew-field_select_wrapper{
+	position:relative;
+}
+
+#bew-template_form_template-type_wrapper .bew-field_select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+#bew-template_form_template-type_wrapper .bew-field_select_wrapper:after {
+    font-family: eicons;
+    content: "\e8ad";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+

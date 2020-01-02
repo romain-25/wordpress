@@ -1,0 +1,232 @@
+
+/**
+ * Bew Menu Horizontal
+ */
+ 
+@media only screen and (min-width: 480px) {
+	
+	
+#menu-horizontal{
+    position: absolute;
+	width: 800px;
+    width: max-content;    
+    left: 50px;
+}
+
+#menu-horizontal .elementor-nav-menu--dropdown.elementor-nav-menu__container {
+	width: auto !important;
+	left: 0 !important;
+	top: 0 !important;
+	position: relative !important;
+	background: transparent !important;
+}
+
+#menu-horizontal .elementor-nav-menu--dropdown a, #menu-horizontal .elementor-menu-toggle {
+	opacity:0.75;	
+}
+
+#menu-horizontal .elementor-nav-menu--dropdown a:hover{
+	opacity:1;	
+}
+	
+#menu-horizontal  .elementor-widget-container {
+    flex-direction: row !important;
+}
+
+#menu-horizontal .elementor-menu-toggle{
+    margin-right: 0 !important;
+}
+#menu-horizontal .elementor-nav-menu{
+    display: flex !important;
+}
+
+#menu-horizontal .elementor-nav-menu--dropdown.elementor-nav-menu__container {
+    margin-top: 0 !important; 
+}
+
+}
+@media only screen and (max-width: 480px) {
+#menu-horizontal{
+    position: absolute ;
+    width: 100%;
+    top:-20px;
+    left:0px;
+}
+
+#menu-horizontal .elementor-menu-toggle {
+	opacity:0.75;	
+}
+
+#menu-horizontal .elementor-nav-menu--dropdown.elementor-nav-menu__container {
+    margin-top: 0 !important;
+	padding:100px 0;
+}
+
+}
+/**
+ * Bew Menu style
+ */
+
+.bew-navigation {
+	margin: 110px 0px 100px 180px;
+	padding:0px;
+	box-sizing: border-box;
+	font-size: 100px;	
+	z-index: 12;
+	position: relative;
+	line-height: 1.2em;
+	letter-spacing:-2px;
+	text-transform:none;
+	text-decoration:none;
+	font-weight:600;
+	font-family: "Encode Sans Condensed", Sans-serif;
+	font-style:normal;	
+}
+
+.bew-navigation span, .bew-navigation a, .bew-navigation li, .bew-navigation ul  {	
+	font-family: "Encode Sans Condensed", Sans-serif;
+	
+}
+
+.bew-navigation .menu-list .bew-menu-list-item{
+	color:#ffffff;	
+}
+
+.bew-navigation .menu-list .active .bew-menu-list-item {
+	color:#75ecf0;
+}
+
+.bew-navigation ul {
+	margin: 0;
+	list-style-type: none;	
+}
+
+.collection-images{
+
+	width:100%;	
+	margin: 0;
+	z-index: 1;
+}
+
+.fixed {
+	position:fixed;
+	top:0;
+}
+.collection-images .image-container{
+	position:absolute;
+	width: 1349px;
+	top:0;
+	margin:0px;
+	
+}
+
+@media only screen and (max-width: 480px) {
+.collection-images .image-container{
+	position:absolute;
+	width: 1200px;
+	left:-200px;
+	top:0;
+	margin:0px;
+		
+}
+}	
+
+.collection-images .image-container.active img {
+	opacity:1;
+	z-index:2;
+	transition: opacity 300ms 0ms ease-in-out;
+}
+
+.collection-images .image-container img {
+	opacity:0;
+	z-index:1;
+	transition: opacity 300ms 0ms ease-in-out;
+}
+
+.bew-navigation .menu-list .active .bew-menu-list-item {
+	color:#75ecf0;
+}
+
+.hide-logo {
+	opacity:0;
+	transition:opacity 200ms 0ms ease-in-out, width 0ms 200ms linear, flex-grow 0ms 200ms linear, flex-shrink 0ms 200ms linear;
+	
+}
+
+#logo-menu {
+	transition: all 300ms ease;
+}
+
+/**
+ * Check with no compatibility.
+ */
+.bew .site-header {
+    position: fixed !important;
+    top:0px;
+    right:0px;
+    width: 100%;
+	z-index: 20;
+}
+
+/**
+ * Bew Menu style-pages
+ */
+
+.bew-fixed-header {
+    position: fixed !important;
+    top:0px;
+    right:0px;
+    width: 100%;
+} 
+
+
+.nav-up {
+    opacity: 0 !important;
+	transform:translate3d(0,-60px,0);
+	transition: transform 650ms 0ms ease, opacity 300ms 50ms ease !important;    
+}
+
+#title-page {
+	
+	position: fixed !important;
+	top:0px;
+    right:0px;
+    width: 100%;
+	display: block;
+	margin-top: 0px;
+}
+ 
+.hide-title-page .elementor-background-overlay {
+	pointer-events: none;
+	opacity: 0 !important;
+	transition: opacity 300ms 0ms ease, visibility 0ms 0ms linear;
+}
+.hide-title-page .elementor-widget-wrap {
+	opacity: 0 !important;
+	transform:translate3d(0,-60px,0);	
+    transition:transform 400ms ease, opacity 250ms 100ms ease;
+}
+
+.elementor-type-header .site-logo {
+    display: block;   
+}
+
+.elementor-element-edit-mode.bew-transparent-header {
+	position: relative;
+}
+
+
+.bew-transparent-header{
+	position: absolute;
+    left: 0;
+    right: 0;
+	background-color: transparent;
+}
+
+.hide-bew-woo-search .bew-woo-search-form {
+	display:none;
+}
+
+
+
+
