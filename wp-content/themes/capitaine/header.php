@@ -8,6 +8,22 @@
     <?php wp_head(); ?>
 </head>
 
+<body <?php body_class( 'site' ); ?>>
+
+  <header class="site__header">
+    <a href="<?php echo home_url( '/' ); ?>">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo">
+    </a>
+
+    
+  </header>
+
+  <?php 
+
+?>
+
+<?php get_search_form(); ?>
+
 <?php 
 if ( is_user_logged_in() ):
 	get_currentuserinfo(); 

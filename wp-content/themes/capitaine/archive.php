@@ -16,6 +16,28 @@
 ?>
 	<h1><?php echo $title; ?></h1>
 
+    <div class="site__blog">
+    	<main class="site__content">
+        	<?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
+            	<article class="post">
+                    <!-- ... -->
+                </article>
+            <?php endwhile; endif; ?>
+            
+            <?php posts_nav_link(); ?>
+
+        </main>
+
+        <aside class="site__sidebar">
+        	<ul>
+            	<?php dynamic_sidebar( 'blog-sidebar' ); ?>
+            </ul>
+        </aside>
+	</div> 
+
+    <?php the_posts_pagination(); ?>
+    
+
 	<?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
   
 		<article class="post">
@@ -35,5 +57,7 @@
             </p>
 		</article>
 		<?php get_template_part( 'archive' ); ?>
+
 	<?php endwhile; endif; ?>
+
 <?php get_footer(); ?>
