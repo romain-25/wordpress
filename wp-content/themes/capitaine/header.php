@@ -12,7 +12,7 @@
 
   <header class="site__header">
     <a href="<?php echo home_url( '/' ); ?>">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/logowp.svg" alt="Logo">
     </a>
 
     
@@ -22,7 +22,7 @@
 
 ?>
 
-<?php get_search_form(); ?>
+
 
 <?php 
 if ( is_user_logged_in() ):
